@@ -14,7 +14,7 @@ function Cart() {
   }, 0);
   useEffect(() => {
     dispatch(fetchProducts());
-  }, []);
+  }, [dispatch]);
   return (
     <Container>
       <h1 className="py-5">welcome to products cart </h1>
